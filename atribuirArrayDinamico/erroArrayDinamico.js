@@ -16,7 +16,7 @@ function retornaArray(p_qtde_linhas){
     }
 
     //ERRO Aqui Nao funciona o For in
-    let array1 = retornaArray(0);
+    array1 = retornaArray(0);
     for(let i in array1){
         console.log(array1[i]);
     }
