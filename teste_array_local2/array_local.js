@@ -1,9 +1,9 @@
 function testeArray(){
     
-debugger;
+    debugger;
     let arrayLocalFuncao = [];
     arrayLocalFuncao[0] = 1;
-return arrayLocalFuncao;
+    return arrayLocalFuncao;
 };
 
 debugger;
