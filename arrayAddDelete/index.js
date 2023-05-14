@@ -1,5 +1,4 @@
 // Arrow functions
-var originalRecords = [1,2,3,4,5]
 var guests = [
   {name: 'John Doe', age: 30},
   {name: 'Lily Bush', age: 20},
