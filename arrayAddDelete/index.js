@@ -32,9 +32,9 @@ console.log(guests);
 console.log(guestsNew);
 
 function addDelete(name1, guests, guestsNew){
-  //Existe name1 no array original ?@Protovivo3
+  //Is there name1 in originalRecords ? 
   if(guests.find((guest) => guest.name == name1)){
-    //Se sim, copia e adicionar no novo arrayNEW.
+    //IF YES, copy to add it to guestsNew.
     let oname = guests.find((guest) => guest.name == name1);
     let index = guests.findIndex((guest) => guest.name == name1);
     guests.splice(index, 1);
