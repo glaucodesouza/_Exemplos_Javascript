@@ -1,5 +1,4 @@
 function testeArray(){
-    
     debugger;
     let arrayLocalFuncao = [];
     arrayLocalFuncao[0] = 1;
@@ -7,7 +6,6 @@ function testeArray(){
 };
 
 debugger;
-
 let array1 = testeArray();
 console.log(array1);
 
