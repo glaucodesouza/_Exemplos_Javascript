@@ -64,8 +64,17 @@ console.log(addMonths(new Date(), -9).toLocaleDateString("pt-BR"));
 console.log(addMonths(new Date(), -9).toLocaleDateString("pt-BR"));
 
 // decrement 10 days from today
+console.log("Example of getTime()-10 days...");
 var date = new Date();
 console.log("date inicial:", date);
 var day = date.getTime() - 10 * 24 * 60 * 60 * 1000;
 date.setTime(day);
 console.log("date -10 dias:", date);
+
+// decrement 12 days from today
+console.log("Example of getDate()-12 days...");
+var date2 = new Date();
+console.log("date inicial:", date2);
+var day2 = date2.getDate() - 12;
+date2.setDate(day2);
+console.log("date -12 dias:", date2);
