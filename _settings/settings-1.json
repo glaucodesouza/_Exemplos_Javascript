@@ -1,0 +1,32 @@
+{
+    "window.menuBarVisibility": "classic",
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.defaultStyle": {
+      
+    },
+    "todohighlight.keywords": [
+        "TODO:",
+        "DEBUG:",
+        "REVIEW:",
+        {
+          "text": "NOTE:",
+          "color": "#ffffff",
+          "backgroundColor": "grey",
+          "overviewRulerColor": "grey"
+        },
+        {
+          "text": "obs:",
+          "color": "#ffffff",
+          "backgroundColor": "grey",
+          "overviewRulerColor": "grey"
+        }
+    ],
+    "color-highlight.languages": [
+
+      "*"
+    ]
+}
