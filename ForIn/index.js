@@ -30,7 +30,6 @@ for(let key in person){
 console.log(` `);
 console.log('For in ARRAY');
 const colors = ['Red','Blue', 'Green'];
-
 for(let color in colors) {
     console.log(color,colors[color]);
 }
