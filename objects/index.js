@@ -86,7 +86,8 @@ const jonas = {
   }
 };
 
-console.log(jonas.calcAge());
+console.log(jonas.calcAge()); //result is 46
+console.log(jonas[calcAge]()); //result is 46
 
 console.log(jonas.age);
 console.log(jonas.age);
