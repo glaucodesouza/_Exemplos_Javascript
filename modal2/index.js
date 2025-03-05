@@ -6,7 +6,6 @@ const btnCloseModel = document.querySelector('.close-modal');
 const btnsOpenModal = document.querySelectorAll('.show-modal'); //select all 3 buttons
 
 const openModel = function () {
-  console.log('Button clicked');
   modal.classList.remove('hidden');//remove hidden class and no need to use dot .hidden
   overlay.classList.remove('hidden');//remove hidden class and no need to use dot.hidden
 }
@@ -21,3 +20,10 @@ for (let i = 0; i < btnsOpenModal.length; i++)
 
 btnCloseModel.addEventListener('click', closeModel); //attach listener for the close button clicked
 overlay.addEventListener('click', closeModel)
+
+document.addEventListener('keydown', function (event){ // keyup, keydown, keypress
+  console.log(`a key was pressed ${event.key}`);
+  if (event.key === 'Escape' && !modal.classList.contains('hidden')) { //<div class="modal hidden">
+    closeModel();
+  }
+});
